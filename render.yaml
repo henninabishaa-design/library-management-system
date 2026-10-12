@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: library-management-system
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python library.py
+    plan: free
